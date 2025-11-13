@@ -302,7 +302,7 @@ function App() {
                             <span>JavaScript</span>
                         </div>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="project-card">
+                    <a href="https://github.com/Owlmil/BR-2" target="_blank" rel="noopener noreferrer" className="project-card">
                         <i className="fas fa-map-signs project-icon"></i>
                         <h2>Bridging Roots</h2>
                         <p>An interactive platform with games, including a map-based game, designed to aid in the teaching of indigenous languages.</p>
