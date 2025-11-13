@@ -1,6 +1,12 @@
 import './index.css';
 import { useState, useEffect } from 'react';
 
+// Importar imágenes
+import travelPhoto from './assets/images/travel2.jpg';
+import bcPublicService from './assets/images/bc-public-service.jpg';
+import italyEnergy from './assets/images/italy-we-are-energy.jpg';
+import volleyball from './assets/images/volleyball.jpg';
+
 function App() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
@@ -91,7 +97,7 @@ function App() {
                         <a href="#about" className="btn">Discover More</a>
                     </div>
                     <div className="home-img">
-                        <img src="/travel 2.jpeg" alt="Lucia's Photo" />
+                        <img src={travelPhoto} alt="Lucia's Photo" />
                     </div>
                 </div>
             </section>
@@ -210,12 +216,6 @@ function App() {
                                 <li>Manage the creation of an easily searchable database, coordinating with faculty and graduate students to solicit and input talk details.</li>
                                 <li>Develop and execute the project timeline, ensuring timely completion of all phases.</li>
                                 <li>Ensure all web content and marketing materials meet quality standards, troubleshooting issues and providing solutions throughout the project lifecycle.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="timeline-item" id="exp4">
-                        <a href="#exp4" className="timeline-marker"></a>
-                        <div className="timeline-content">
                             <h2><a href="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services" target="_blank" rel="noopener noreferrer">Ministry of Citizens' Services, BC Public Service</a></h2>
                             <p className="timeline-sub-header">Security Co-op Technical Analyst | May 2024 – Dec 2024</p>
                             <ul>
